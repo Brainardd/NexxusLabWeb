@@ -36,28 +36,6 @@
     	</div>
     	<!-- end preloader -->
 
-        <!-- start header -->
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <p><i class="fa fa-phone"></i><span> Phone</span>+63 927 143 0884</p>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <p><i class="fa fa-envelope-o"></i><span> Email</span><a href="#contact">team@nexxuslab.com</a></p>
-                    </div>
-                    <div class="col-md-5 col-sm-4 col-xs-12">
-                        <ul class="social-icon">
-                            <li><a href="https://www.facebook.com/nexxuslab" target="_blank" class="fa fa-facebook"></a></li>
-                            <li><a href="https://www.linkedin.com/company/nexxus-lab/mycompany/" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="https://www.instagram.com/nexxus_lab/" target="_blank" class="fa fa-instagram"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- end header -->
-
     	<!-- start navigation -->
 		<nav class="navbar navbar-default templatemo-nav" role="navigation">
 			<div class="container">
@@ -67,11 +45,11 @@
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 					</button>
+				</div>
 					<a href="#home" class="navbar-brand">
 						<img src="images/NexxusLabLogo.png" alt="Company Logo" class="logo">
 						NEXXUS LAB
 					</a>
-				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#top">HOME</a></li>
@@ -89,11 +67,14 @@
 
     	<!-- start home -->
 		<section id="home">
+			<video autoplay loop muted class="video-bg">
+				<source src="/images/BackGroundMoving.mp4" type="video/mp4">
+			  </video>
 			<div class="container">
 				<div class="row justify-content-center"> <!-- Centering the row -->
 					<!-- Column for the image -->
 					<div class="col-md-4 text-center"> <!-- Centering the content within the column -->
-						<img src="images/StartPagePhoto2.png" alt="Description of image" class="img-responsive">
+						<img src="/images/NexxusLabLogo.png" alt="Description of image" class="img-responsive">
 					</div>
 					<!-- Column for the text -->
 					<div class="col-md-7">
@@ -318,30 +299,6 @@
 							</a>
     					</div>
     				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
-    					<div class="team-wrapper">
-							<a href="https://www.linkedin.com/in/janispagal/" target="_blank" class="team-link">
-    						<img src="images/Team_MissJanis.png" class="img-responsive" alt="team img 3">
-    							<div class="team-des">
-    								<h4>Janis Pagal</h4>
-    								<span>Senior Software Engineer</span>
-    								<p>Janis contributes precision and creativity to every project. Her meticulous approach and collaborative spirit make her a valued mentor and team player, driving continuous improvement and achieving technical milestones.</p>
-    							</div>
-								</a>
-    					</div>
-    				</div>
-    				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
-    					<div class="team-wrapper">
-							<a href="https://www.linkedin.com/in/neomi-mendoza-a14a541bb/" target="_blank" class="team-link">
-    						<img src="images/Team_MissNeomi.png" class="img-responsive" alt="team img 4">
-    							<div class="team-des">
-    								<h4>Neomi Mendoza</h4>
-    								<span>Account/Project Manager</span>
-    								<p>Neomi excels in fostering strong client relationships and ensuring project success. Her organizational skills and proactive communication style streamline operations, enabling seamless execution of initiatives and consistently exceeding client expectations.</p>
-    							</div>
-							</a>
-    					</div>
-    				</div>
     			</div>
     		</div>
     	</section>
@@ -363,27 +320,25 @@
 							<div class="calendly-inline-widget" data-url="https://calendly.com/nexxuslabtest/ask-me-anything?hide_event_type_details=1&hide_gdpr_banner=1&background_color=dbd9d9&text_color=030303" style="min-width:320px;height:700px;"></div>
 							<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 					<!-- Calendly inline widget end -->
-
-							<p></p>
-    						<p></p>
-    						<p></p>
 						</address>
 					</div>
     				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
     					<address>
-    						<p class="address-title">OUR ADDRESS</p>
-    						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</span>
-    						<p><i class="fa fa-phone"></i> +63 927 143 0884
-							</p>
-    						<p><i class="fa fa-envelope-o"></i> team@nexxuslab.com</p>
-    						<p><i class="fa fa-map-marker"></i> Salcedo St., Legaspi Village Makati City 1299, Philippines</p>
+    						<p class="address-title">EMAIL US!</p>
+    						<span>If you don't need to book a meeting with us, email us here!</span>
+    						<form action="#" method="post">
+								<label>NAME</label>
+								<input name="fullname" type="text" class="form-control" id="fullname">
+									 
+								<label>EMAIL</label>
+								<input name="email" type="email" class="form-control" id="email">
+									 
+								<label>MESSAGE</label>
+								<textarea name="message" rows="4" class="form-control" id="message"></textarea>
+								
+								<input type="submit" class="form-control">
+							</form>
     					</address>
-    					<ul class="social-icon">
-    						<li><h4>WE ARE SOCIAL</h4></li>
-    						<li><a href="https://www.facebook.com/nexxuslab" target="_blank" class="fa fa-facebook"></a></li>
-    						<li><a href="https://www.linkedin.com/company/nexxus-lab/mycompany/" target="_blank" class="fa fa-linkedin"></a></li>
-    						<li><a href="https://www.instagram.com/nexxus_lab/" target="_blank" class="fa fa-instagram"></a></li>
-    					</ul>
 
 						<script defer src="https://app.fastbots.ai/embed.js" data-bot-id="clxmysx4t0003ohbcbw52d8gj"></script>
     				</div>
@@ -403,7 +358,7 @@
                 </div>
             </div>
         </footer>
-        <!-- end copyright -->
+        <!-- end copyrighttu -->
 	</div>
 </div>
 	</body>

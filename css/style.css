@@ -122,42 +122,6 @@ h2 span
                     transform: scaleY(1); } }
 /* end preloader */
 
-/* start header */
-header
-	{
-		min-height: 20px;
-		padding-top: 18px;
-		padding-bottom: 10px;
-	}
-header .fa
-	{
-		color: #28a7e9;
-	}
-header span
-	{
-		font-weight: bold;
-		padding-right: 10px;
-		padding-left: 4px;
-	}
-header a
-	{
-		color: #999;
-		font-weight: 600;
-	}
-header .social-icon
-	{
-		text-align: right;
-	}
-header .social-icon li a
-	{
-		border: none;
-		width: 20px;
-		height: 20px;
-		line-height: 20px;
-		text-align: center;
-	}
-/* end header */
-
 /* start nagivation */
 .navbar-default
 	{
@@ -167,12 +131,7 @@ header .social-icon li a
 		margin: 0 !important;
 	}
 
-	.logo {
-		max-width: 100px;
-		margin-right: -5%;
-	}
-
-.navbar-default .navbar-brand
+.navbar-default	.navbar-brand
 	{
 		font-weight: 200;
 		color: #28A7E9;
@@ -185,6 +144,12 @@ header .social-icon li a
 		display: flex;
 		align-items: center;
 	}
+
+	.logo {
+		max-width: 100px;
+		margin-right: -5%;
+	}
+
 .navbar-default .navbar-nav li a
 	{
 		font-weight: bold;
@@ -211,7 +176,7 @@ header .social-icon li a
 /* start home */
 #home
 	{
-		background-image: url(../images/StartBackgroundPhoto.png);
+		background-image: url(/images/BackGroundMoving2.gif);
 		position: relative;
 		background-size: cover;
 		padding-top: 160px;
@@ -234,7 +199,7 @@ header .social-icon li a
 		max-width: 100px;
 		height: auto;
 		display: block;
-		margin-left: -15px;
+		margin-left: -30px;
 		width: 200%;
 		max-width: 500px;
 	}
@@ -242,7 +207,9 @@ header .social-icon li a
 #home .btn
 	{
 		background: transparent;
-		border-radius: 2px;
+		border-radius: 5px;
+		border-width: 2px;
+		border-color: rgb(255, 255, 255);
 		color: #fff;
 		font-size: 16px;
 		font-weight: bold;
@@ -258,6 +225,17 @@ header .social-icon li a
 		background: #28a7e9;
 		border-color: transparent;
 	}
+
+	.video-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		overflow: hidden;
+		object-fit: cover;
+	  }
 .element {
 	height: 60px;
 	font-size: 16px;
@@ -510,8 +488,8 @@ header .social-icon li a
 	}
 #contact .form-control
 	{
-		background: transparent;
-		border: 1px solid #28a7e9;
+		background-color: #303030;
+		border: 1px solid #7e7e7e;
 		border-radius: 2px;
 		box-shadow: none;
 		color: #fff;
