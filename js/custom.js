@@ -112,4 +112,10 @@ document.querySelector('.slideshow-container').addEventListener('mouseleave', st
 showSlides(slideIndex);
 startAutoSlide();
 
+function scrollToContact() {
+    $('html, body').animate({
+      scrollTop: $('#contact').offset().top
+    }, 800); // Adjust the duration (in milliseconds) as needed
+  }
+
 
