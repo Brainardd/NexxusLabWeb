@@ -15,6 +15,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
 
+
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.singlePageNav.min.js"></script>
@@ -79,7 +80,9 @@
 							<div class="sub-element">We are a team of developers and advisors from the Philippines.</div>
 							<div class="sub-element">Contact us for more inquiries.</div>
 						</div>
-						<a data-scroll href="#contact" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s" onclick="scrollToContact()">BOOK AN APPOINTMENT</a>
+						<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+						<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+						<a href="" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nexxuslabtest/ask-me-anything?background_color=303030&text_color=ffffff'});return false;">BOOK AN APPOINTMENT</a>
 					</div>
 				</div>
 			</div>
@@ -93,28 +96,28 @@
 					<div class="col-md-12">
 						<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">SERVICES <span>NEXXUS LAB</span> CAN PROVIDE</h2>
 					</div>
-					<div class="col-md-4 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
+					<div class="col-md-4 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.1s">
 						<i class="fa fa-android"></i>
 						<h4>Mock-ups & Prototypes</h4>
 						<p>We transform visions into tangible experiences with our Mock-ups & Prototypes services. Our skilled designers specialize in creating detailed and interactive prototypes that serve as blueprints for your future projects. We’re dedicated to meticulously crafting every aspect of the user interface, ensuring that each prototype is not only a visual blueprint but also a strategic tool that guides the development process. Let us help you visualize the potential of your ideas with clarity and precision.</p>
 					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
+					<div class="col-md-4 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.2s">
 						<i class="fa fa-wrench"></i>
 						<h4>Software Development</h4>
 						<p>Our seasoned developers are artisans of code, adept at crafting state-of-the-art web, hybrid, and native applications that propel your business forward. We don’t just create software; we engineer success stories. Our team is committed to translating your organizational needs into digital realities, ensuring each application is a perfect fit for your vision and objectives. Let us be the architects of your digital future.</p>
 					</div>
-					<div class="col-md-4 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
+					<div class="col-md-4 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.3s">
 						<i class="fa fa-wifi"></i>
 						<h4>Network Security</h4>
 						<p>We deliver an all-encompassing suite of Network Security services designed to shield your enterprise from the evolving landscape of cyber threats. Our approach is proactive and vigilant, ensuring that your business is safeguarded against any form of digital intrusion. Trust us to be the guardians of your network, providing peace of mind in a connected world.</p>
 					</div>
-					<div clas="bottomservices">
-					<div class="col-md-4 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
+					<div class="bottomservices">
+					<div class="col-md-4 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.4s">
 						<i class="fa fa-phone"></i>
 						<h4>IT Support Training</h4>
 						<p>We pride ourselves on delivering unparalleled technical and customer support services that set the industry standard. Our commitment to excellence is reflected in our interactive live and on-demand webinars, meticulously designed to foster professional development. We empower our clients with the knowledge and certifications they need to excel, ensuring they’re equipped for success in the digital landscape. Join us, and experience support that not only answers your call but elevates your potential.</p>
 					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+					<div class="col-md-4 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.5s">
 						<i class="fa fa-cog"></i>
 						<h4>Automata Development</h4>
 						<p>We’re at the cutting edge of artificial intelligence, offering a suite of AI services that redefine the boundaries of possibility. Our AI solutions are designed to empower your business with smart automation, predictive analytics, and advanced data processing capabilities. We’re committed to delivering AI-driven strategies that optimize operations, enhance decision-making, and create unparalleled customer experiences. Partner with us to unlock the transformative potential of AI for your enterprise.</p>
@@ -217,43 +220,41 @@
 					<div class="col-md-12">
     					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">PRINCIPLES OF <span>NEXXUS LAB</span></h2>
     				</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
+					<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
 						<div class="media">
 							<div class="media-heading-wrapper">
-								<div class="media-object pull-left">
+								<div class="media-object">
 									<i class="fa fa-flag"></i>
 								</div>
 								<h3 class="media-heading">MISSION</h3>
 							</div>
-							<div class="media-body">
-								<p>Nexxus Lab Philippines is committed to democratizing access to technology. We exist to lower the barriers of entry, enabling companies and individuals to leverage their own technological solutions through our platform. Our approach is guided by a belief in as-needed pricing - we offer competitive rates that reflect the value delivered, without the industry premium. This commitment to affordability and value is at the heart of our operations.</p>
-							</div>
+
+								<p class="media-paragraph">Nexxus Lab Philippines is committed to democratizing access to technology. We exist to lower the barriers of entry, enabling companies and individuals to leverage their own technological solutions through our platform. Our approach is guided by a belief in as-needed pricing - we offer competitive rates that reflect the value delivered, without the industry premium. This commitment to affordability and value is at the heart of our operations.</p>
+
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-offset="50" data-wow-delay="0.9s">
+					<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.9s">
 						<div class="media">
 							<div class="media-heading-wrapper">
-								<div class="media-object pull-left">
+								<div class="media-object">
 									<i class="fa fa-eye"></i>
 								</div>
 								<h3 class="media-heading">VISION</h3>
 							</div>
-							<div class="media-body">
-								<p>Nexxus Lab Philippines envisions a world where technology is accessible to all, empowering individuals and businesses alike. We strive to be a catalyst for this transformation, driving innovation and progress for our clients and our country. </p>
-							</div>
+
+								<p class="media-paragraph">Nexxus Lab Philippines envisions a world where technology is accessible to all, empowering individuals and businesses alike. We strive to be a catalyst for this transformation, driving innovation and progress for our clients and our country. </p>
+
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
 						<div class="media">
 							<div class="media-heading-wrapper">
-								<div class="media-object pull-left">
+								<div class="media-object">
 									<i class="fa fa-diamond"></i>
 								</div>
 								<h3 class="media-heading">VALUES</h3>
 							</div>
-							<div class="media-body">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet.</p>
-							</div>
+								<p class="media-paragraph">Nexxus Lab values open and honest communication, where employees are encouraged to speak up and share their thoughts, even if they differ from the established views. Integrity and reliability are also paramount, as the lab aims to deliver high-quality results and stand behind their work with confidence. Mutual support and respect for one another are at the heart of Nexxus Lab's values, fostering an inclusive and empathetic work environment.</p>
 						</div>
 					</div>
 				</div>
