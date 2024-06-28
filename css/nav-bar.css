@@ -1,6 +1,9 @@
 .navbar-default {
     background-color: #f8f8f8eb;
     border-color: #000000;
+    border: none;
+    box-shadow: none;
+    margin: 0 !important;
   }
   
   .navbar-default	.navbar-brand
@@ -18,8 +21,35 @@
 	}
     
   .navbar-default .navbar-brand {
-    color: #777;
+    color: #28a7e9;
   }
+
+	.logo {
+		max-width: 100px;
+		margin-right: -5%;
+	}
+
+.navbar-default .navbar-nav li a
+	{
+		font-weight: bold;
+		font-size: 13px;
+		height: 70px;
+		line-height: 40px;
+	}
+
+.navbar-default .navbar-nav > li > a.current { 
+	color: #28A7E9; 
+}
+.templatemo-nav {
+	border-radius: 0;	
+	width: 100%;
+	z-index: 1000;
+}
+.sticky {	
+	position: fixed;
+	left: 0;
+	top: 0;	
+}
   
   .navbar-default .navbar-brand:focus,
   .navbar-default .navbar-brand:hover {
