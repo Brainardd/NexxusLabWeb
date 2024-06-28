@@ -176,7 +176,7 @@ h2 span
 /* start home */
 #home
 	{
-		background-image: url(/images/StartBackgroundPhoto.png);
+		background: url(/images/StartBackgroundPhoto.png);
 		position: relative;
 		background-size: cover;
 		padding-top: 160px;
