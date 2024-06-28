@@ -613,6 +613,85 @@ h2 span
 	}
 /* end social icon */
 
+/*FOOTER*/
+.footer {
+	border-top: 0.1rem solid #eee;
+	padding: 7rem 0 10rem;
+	color: #767676;
+	font-size: 1.4rem;
+	line-height: 1.4;
+  }
+  
+  .grid-footer {
+	grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  }
+  
+  .logo-col {
+	display: flex;
+	flex-direction: column;
+  }
+  .footer-logo {
+	display: block;
+	margin-bottom: 1.6rem;
+  }
+  
+  .social-media {
+	display: flex;
+	gap: 1.6rem;
+	list-style: none;
+	margin-top: auto;
+  }
+  
+  .social-icon {
+	display: block;
+	height: 2.5rem;
+	width: 2.5rem;
+	color: #767676;
+  }
+  
+  .footer-heading {
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin-bottom: 2.9rem;
+  }
+  
+  .contacts {
+	font-style: normal;
+  }
+  
+  .address {
+	margin-bottom: 2.4rem;
+  }
+  
+  .footer-nav {
+	display: flex;
+	gap: 1.5rem;
+	list-style: none;
+	flex-direction: column;
+  }
+  
+  .footer-link:link,
+  .footer-link:visited {
+	text-decoration: none;
+	transition: all 0.3s;
+	color: #767676;
+  }
+  
+  .footer-link:hover,
+  .footer-link:active {
+	color: #474747;
+  }
+  
+  .credits {
+	font-size: 1.2rem;
+	color: #555555;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 1.8rem 0;
+	background-color: #fdf1e8;
+  }
+/* End of Footer*/
+
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
 	#portfolio .portfolio-thumb .portfolio-overlay {
 		padding: 0px 8px;
