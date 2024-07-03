@@ -348,33 +348,23 @@ h2 span
 	background: #e6e6e6;
 	padding-top: 80px;
 	padding-bottom: 80px;
-  }
+}
   
-  #principles .media {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-  }
-  
+
+#principles .col-md-12 {
+	padding-bottom: 30px;
+}
   #principles .wow {
-	color: #2A2626;
-  }
-  
-  #principles .body {
 	color: #2A2626;
   }
 
   #principles .media-heading-wrapper {
 	padding-bottom: 32px;
-	color: #2A2626;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
   }
   
   #principles .media-heading-wrapper .fa {
 	border: 1px solid #2A2626;
+	background-color: #dddddd;
 	border-radius: 10px;
 	color: #2A2626;
 	font-size: 24px;
@@ -382,8 +372,8 @@ h2 span
 	height: 60px;
 	line-height: 60px;
 	text-align: center;
-	margin-right: 0;
-	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
   }
@@ -391,29 +381,28 @@ h2 span
   #principles .media-heading-wrapper .fa:hover {
 	border: 1px solid #2A2626;
 	border-radius: 10px;
-	background-color: rgb(187, 187, 187);
+	background-color: #bbbbbb;
 	color: #016faf;
 	font-size: 24px;
 	width: 60px;
 	height: 60px;
 	line-height: 60px;
 	text-align: center;
-	margin-right: 0;
-	margin-top: 30px;
+	margin-right: 20;
+	margin-bottom: 20px;
   }
   
   #principles .media-heading-wrapper h3 {
 	font-size: 18px;
 	font-weight: bold;
 	padding-top: 20px;
-	padding-left: 0;
-	margin-bottom: -70px;
+	padding-left: 52px;
   }
 
-  #principles .media-paragraph{
-	padding: 50px;
+  #principles .media-body{
 	font-weight: 400;
 	color: #000000;
+	padding-bottom: 50px;
   }
 /* end principles */
 
@@ -457,7 +446,6 @@ h2 span
 	}
 #contact address
 	{
-		border-bottom: 1px solid #505050;
 		padding-top: 30px;
 	}
 #contact address .address-title
@@ -552,82 +540,3 @@ h2 span
 		border-color: transparent;
 	}
 /* end social icon */
-
-/*FOOTER*/
-.footer {
-	border-top: 0.1rem solid #eee;
-	padding: 7rem 0 10rem;
-	color: #767676;
-	font-size: 1.4rem;
-	line-height: 1.4;
-  }
-  
-  .grid-footer {
-	grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
-  }
-  
-  .logo-col {
-	display: flex;
-	flex-direction: column;
-  }
-  .footer-logo {
-	display: block;
-	margin-bottom: 1.6rem;
-  }
-  
-  .social-media {
-	display: flex;
-	gap: 1.6rem;
-	list-style: none;
-	margin-top: auto;
-  }
-  
-  .social-icon {
-	display: block;
-	height: 2.5rem;
-	width: 2.5rem;
-	color: #767676;
-  }
-  
-  .footer-heading {
-	font-size: 1.6rem;
-	font-weight: 500;
-	margin-bottom: 2.9rem;
-  }
-  
-  .contacts {
-	font-style: normal;
-  }
-  
-  .address {
-	margin-bottom: 2.4rem;
-  }
-  
-  .footer-nav {
-	display: flex;
-	gap: 1.5rem;
-	list-style: none;
-	flex-direction: column;
-  }
-  
-  .footer-link:link,
-  .footer-link:visited {
-	text-decoration: none;
-	transition: all 0.3s;
-	color: #767676;
-  }
-  
-  .footer-link:hover,
-  .footer-link:active {
-	color: #474747;
-  }
-  
-  .credits {
-	font-size: 1.2rem;
-	color: #555555;
-	text-align: center;
-	letter-spacing: 1px;
-	padding: 1.8rem 0;
-	background-color: #fdf1e8;
-  }
-/* End of Footer*/
