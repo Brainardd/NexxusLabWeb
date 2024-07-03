@@ -2,10 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 .chatbot-container body {
     background-color: aquamarine;
+    
 }
 
 .chatbot-container {
@@ -14,6 +18,7 @@
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
     --primary: #1f4180;
+    
 }
 
 /* CHATBOX */
@@ -40,6 +45,9 @@
     transform: translateY(-40px);
     z-index: 123456;
     opacity: 1;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 /* BUTTON */
@@ -48,6 +56,9 @@
     position: fixed;
     bottom: 5px; /* Adjust this value to raise the button higher */
     right: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 .chatbot-container .send__button {
@@ -56,6 +67,9 @@
     border: none;
     outline: none;
     cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 /* HEADER */
@@ -63,6 +77,9 @@
     position: sticky;
     top: 0;
     background: orange;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 /* MESSAGES */
@@ -83,6 +100,7 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 100%;
+
 }
 
 .chatbot-container .messages__item--operator {
@@ -104,8 +122,8 @@
     height: 450px;
     width: 350px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 30px;
+
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 100%;
@@ -122,6 +140,9 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: var(--primaryBoxShadow);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 .chatbot-container .chatbox__image--header {
@@ -131,16 +152,25 @@
 .chatbot-container .chatbox__heading--header {
     font-size: 1.2rem;
     color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: Bold;
+    font-size: 150%;
 }
 
 .chatbot-container .chatbox__description--header {
     font-size: .9rem;
     color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 /* Messages */
 .chatbot-container .chatbox__messages {
     padding: 0 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 .chatbot-container .messages__item {
@@ -148,6 +178,10 @@
     background: #E0E0E0;
     padding: 8px 12px;
     max-width: 70%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    color:black;
 }
 
 .chatbot-container .messages__item--visitor,
@@ -155,6 +189,9 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 .chatbot-container .messages__item--operator {
@@ -163,6 +200,9 @@
     border-bottom-left-radius: 20px;
     background: var(--primary);
     color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 /* FOOTER */
@@ -177,6 +217,9 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 .chatbot-container .chatbox__footer input {
@@ -185,10 +228,17 @@
     padding: 10px 10px;
     border-radius: 30px;
     text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    color:black;
 }
 
 .chatbot-container .chatbox__send--footer {
     color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
 
 .chatbot-container .chatbox__button button,
@@ -203,4 +253,7 @@
     border-bottom-left-radius: 50px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
 }
