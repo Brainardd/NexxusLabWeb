@@ -49,7 +49,7 @@ $(function(){
 
 /* start preloader */
 $(window).load(function(){
-	$('.preloader').fadeOut(1000); // set duration in brackets    
+	$('.preloader').fadeOut(1000);  
 });
 /* end preloader */
 
@@ -58,16 +58,16 @@ let slideIndex = 0;
 let autoSlideInterval;
 
 document.addEventListener("DOMContentLoaded", function() {
-    showSlides(slideIndex); // Show initial slide
-    startAutoSlide(); // Start automatic slideshow
+    showSlides(slideIndex);
+    startAutoSlide();
 });
 
 function plusSlides(n) {
-    showSlides(slideIndex += n); // Move to next/previous slide
+    showSlides(slideIndex += n);
 }
 
 function currentSlide(n) {
-    showSlides(slideIndex = n - 1); // Move to specific slide
+    showSlides(slideIndex = n - 1);
 }
 
 function showSlides(n) {
@@ -75,47 +75,32 @@ function showSlides(n) {
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("dot");
     
-    // Wrap around slide index
     if (n >= slides.length) { slideIndex = 0; }
     if (n < 0) { slideIndex = slides.length - 1; }
     
-    // Hide all slides and remove active dot indicator
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
-        slides[i].classList.remove("fade"); // Remove fade animation class
+        slides[i].classList.remove("fade"); 
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].classList.remove("active");
     }
     
-    // Display current slide and mark dot as active
     slides[slideIndex].style.display = "block";  
-    slides[slideIndex].classList.add("fade"); // Add fade animation class
+    slides[slideIndex].classList.add("fade"); 
     dots[slideIndex].classList.add("active");
 }
 
 function startAutoSlide() {
     autoSlideInterval = setInterval(function() {
-        plusSlides(1); // Move to next slide automatically
-    }, 1600); // Change slide every 1.6 seconds (1600 ms)
+        plusSlides(1);
+    }, 1600);
 }
-
-function stopAutoSlide() {
-    clearInterval(autoSlideInterval); // Stop automatic sliding
-}
-
-// Event listeners for controlling automatic slide and hover pause
-document.querySelector('.slideshow-container').addEventListener('mouseenter', stopAutoSlide);
-document.querySelector('.slideshow-container').addEventListener('mouseleave', startAutoSlide);
-
-// Ensure slideshow starts immediately after content loads
-showSlides(slideIndex);
-startAutoSlide();
 
 function scrollToContact() {
     $('html, body').animate({
       scrollTop: $('#contact').offset().top
-    }, 800); // Adjust the duration (in milliseconds) as needed
+    }, 800);
   }
 
 
