@@ -216,24 +216,24 @@ h2 span {
 }
 
 #hero .companies p {
-	font-weight: 300;
-	font-size: 20px;
-	text-align: center;
-	white-space: nowrap;
-	word-break: keep-all;
-	cursor: default;
-  }
-  
-  #hero .companies .col-md-7 {
-	text-align: left;
-	border-left: #ffffff;
-	border-width: 10px;
-  }
-  
-  #hero .companies p span {
-	color: #28a7e9;
-	font-weight: bold;
-  }
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  white-space: nowrap;
+  word-break: keep-all;
+  cursor: default;
+}
+
+#hero .companies .col-md-7 {
+  text-align: left;
+  border-left: #ffffff;
+  border-width: 10px;
+}
+
+#hero .companies p span {
+  color: #28a7e9;
+  font-weight: bold;
+}
 
 /* end hero */
 
