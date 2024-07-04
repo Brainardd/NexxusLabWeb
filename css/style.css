@@ -322,80 +322,78 @@ h2 span {
 
 /* end service */
 
-
-
 /* start portfolio */
 
 #portfolio .slideshow-container {
-	max-width: 100%;
-	position: relative;
-	margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#portfolio img {
+  border-radius: 50px;
+}
+
+#portfolio .prev,
+#portfolio .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#portfolio .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#portfolio .prev:hover,
+#portfolio .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#portfolio .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  transition: all 0.6s ease;
+  padding-top: 10px;
+}
+
+#portfolio .active,
+#portfolio .dot:hover {
+  background-color: #717171;
+  height: 13px;
+  width: 13px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
   }
-  
-  #portfolio img {
-	border-radius: 50px;
+  to {
+    opacity: 1;
   }
-  
-  #portfolio .prev,
-  #portfolio .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-  }
-  
-  #portfolio .next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-  }
-  
-  #portfolio .prev:hover,
-  #portfolio .next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  #portfolio .dot {
-	cursor: pointer;
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-	transition: all 0.6s ease;
-	padding-top: 10px;
-  }
-  
-  #portfolio .active,
-  #portfolio .dot:hover {
-	background-color: #717171;
-	height: 13px;
-	width: 13px;
-  }
-  
-  /* Fading animation */
-  .fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-	from {
-	  opacity: 0.4;
-	}
-	to {
-	  opacity: 1;
-	}
-  }
+}
 
 /* end portfolio */
 
@@ -473,104 +471,110 @@ h2 span {
 
 /* start team */
 #team {
-	align-items: center;
-	text-align: center;
-	background-size: cover;
-	padding-top: 160px;
-	padding-bottom: 100px;
-	min-height: 650px;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 100px;
+  min-height: 650px;
 }
 
-.our-team{
-    background: #000;
-	display: flex;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    position: relative;
-	border-radius: 10px;
+.our-team {
+  background: #000;
+  display: flex;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
 }
-.our-team img{
-    width: 100%;
-    height: auto;
-    transition: all 0.55s ease 0s;
+.our-team img {
+  width: 100%;
+  height: auto;
+  transition: all 0.55s ease 0s;
 }
-.our-team:hover img{ opacity: 0.5; }
-.our-team .team-content{
-    padding: 5px 10px 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    transform: rotate(45deg) translate(-50%, -50%);
-    transform-origin: 0 0;
-    transition: all 0.55s ease 0s;
+.our-team:hover img {
+  opacity: 0.5;
 }
-.our-team:hover .team-content{ opacity: 1; }
+.our-team .team-content {
+  padding: 5px 10px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: rotate(45deg) translate(-50%, -50%);
+  transform-origin: 0 0;
+  transition: all 0.55s ease 0s;
+}
+.our-team:hover .team-content {
+  opacity: 1;
+}
 .our-team .team-content:before,
-.our-team .team-content:after{
-    content: "";
-    width: 400px;
-    height: 2px;
-    background: #95ccea;
-    position: absolute;
-    top: 0;
-    left: 10px;
-    transform: translateX(100%);
-    transition: all 0.55s ease 0s;
+.our-team .team-content:after {
+  content: "";
+  width: 400px;
+  height: 2px;
+  background: #95ccea;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  transform: translateX(100%);
+  transition: all 0.55s ease 0s;
 }
-.our-team .team-content:after{
-    top: auto;
-    left: auto;
-    bottom: 0;
-    right: 10px;
-    transform: translateX(-100%);
+.our-team .team-content:after {
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 10px;
+  transform: translateX(-100%);
 }
 .our-team:hover .team-content:before,
-.our-team:hover .team-content:after{
-    transform: translate(0, 0);
-    transition-delay: 0.15s;
+.our-team:hover .team-content:after {
+  transform: translate(0, 0);
+  transition-delay: 0.15s;
 }
-.our-team .title{
-    font-size: 20px;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0;
+.our-team .title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
 }
 .our-team .title:before,
-.our-team .title:after{
-    content: "";
-    width: 2px;
-    height: 300px;
-    background: #95ccea;
-    position: absolute;
-    top: 10px;
-    right: 0;
-    transform: translateY(100%);
-    transition: all 0.55s ease 0s;
+.our-team .title:after {
+  content: "";
+  width: 2px;
+  height: 300px;
+  background: #95ccea;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  transform: translateY(100%);
+  transition: all 0.55s ease 0s;
 }
-.our-team .title:after{
-    top: auto;
-    right: auto;
-    bottom: 10px;
-    left: 0;
-    transform: translateY(-100%);
+.our-team .title:after {
+  top: auto;
+  right: auto;
+  bottom: 10px;
+  left: 0;
+  transform: translateY(-100%);
 }
 .our-team:hover .title:before,
-.our-team:hover .title:after{
-    transform: translate(0, 0);
+.our-team:hover .title:after {
+  transform: translate(0, 0);
 }
-.our-team .post{
-    display: block;
-    padding: 5px 10px;
-    background: #95ccea;
-    font-size: 17px;
-    font-weight: 700;
-    color: #000;
-    text-transform: capitalize;
+.our-team .post {
+  display: block;
+  padding: 5px 10px;
+  background: #95ccea;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+  text-transform: capitalize;
 }
-@media only screen and (max-width: 990px){
-    .our-team{ margin-bottom: 30px; }
+@media only screen and (max-width: 990px) {
+  .our-team {
+    margin-bottom: 30px;
+  }
 }
 /* end team */
 
