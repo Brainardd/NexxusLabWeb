@@ -131,7 +131,6 @@ h2 span {
   min-height: 650px;
 }
 
-
 #hero .container {
   display: flex;
   align-items: center;
@@ -149,18 +148,18 @@ h2 span {
   font-weight: 300;
   font-size: 70px;
   padding-bottom: 10px;
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   word-break: keep-all;
   cursor: default;
 }
 
 .element {
-	height: 60px;
-	font-size: D16px;
-	text-align: center;
-	cursor: default;
-  }
+  height: 60px;
+  font-size: D16px;
+  text-align: left;
+  cursor: default;
+}
 
 #hero .col-md-7 {
   text-align: center;
@@ -168,13 +167,18 @@ h2 span {
 }
 
 #hero .col-md-5 {
-	max-width: 50%;
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-  }
-  
+  max-width: 50%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+#hero .row {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 
 #hero h1 span {
   color: #28a7e9;
