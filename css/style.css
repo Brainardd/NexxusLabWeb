@@ -134,10 +134,13 @@ h2 span {
 #hero .container {
   display: flex;
   align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 #hero .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -156,6 +159,13 @@ h2 span {
   border-left: #ffffff;
   border-width: 10px;
 }
+
+#hero .col-md-5 {
+	text-align: center;
+	border-left: #ffffff;
+	border-width: 10px;
+  }
+  
 
 #hero h1 span {
   color: #28a7e9;
