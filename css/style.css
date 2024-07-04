@@ -162,12 +162,11 @@ h2 span {
 }
 
 #hero .col-md-7 {
-  text-align: center;
-  border-left: #ffffff;
+  text-align: left;
 }
 
 #hero .col-md-5 {
-  max-width: 50%;
+  max-width: 100%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -327,77 +326,76 @@ h2 span {
 
 /* start portfolio */
 
-.slideshow-container {
-  max-width: 100%;
-  position: center;
-  margin: 0 auto;
-}
-
-#portfolio img {
+#portfolio .slideshow-container {
+	max-width: 100%;
+	position: relative;
+	margin: 0 auto;
+  }
+  
+  #portfolio img {
 	border-radius: 50px;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -15px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  transition: all 0.6s ease;
-  padding-top: 10px;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-  height: 13px;
-  width: 13px;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
   }
-  to {
-    opacity: 1;
+  
+  #portfolio .prev,
+  #portfolio .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
   }
-}
+  
+  #portfolio .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  #portfolio .prev:hover,
+  #portfolio .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  #portfolio .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	transition: all 0.6s ease;
+	padding-top: 10px;
+  }
+  
+  #portfolio .active,
+  #portfolio .dot:hover {
+	background-color: #717171;
+	height: 13px;
+	width: 13px;
+  }
+  
+  /* Fading animation */
+  .fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+	from {
+	  opacity: 0.4;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
 
 /* end portfolio */
 
@@ -420,7 +418,7 @@ h2 span {
 #principles .media {
   margin: 0 auto;
   width: 240px;
-  border-top: 1px solid #9c9c9c4a; /* This sets the border on all four sides */
+  border-top: 1px solid #9c9c9c4a;
   padding: 20px;
 }
 
