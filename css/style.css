@@ -207,7 +207,6 @@ h2 span {
 
 #hero .companies {
   background-color: #dfdfdf00;
-  border: 1px solid #202020;
   border-radius: 10px;
   align-items: flex;
   width: 800px;
@@ -220,8 +219,8 @@ h2 span {
 }
 
 #hero .companies .grid {
-  background-color: #727272;
-  border-radius: 10px;
+  background-color: #acacacd7;
+  border-radius: 100px;
   padding: 10px;
   margin-top: 10px;
   display: grid;
@@ -231,8 +230,8 @@ h2 span {
 }
 
 #hero .companies p {
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 100;
+  font-size: small;
   text-align: center;
   white-space: nowrap;
   word-break: keep-all;
