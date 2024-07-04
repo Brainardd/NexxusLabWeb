@@ -131,6 +131,7 @@ h2 span {
   min-height: 650px;
 }
 
+
 #hero .container {
   display: flex;
   align-items: center;
@@ -142,6 +143,7 @@ h2 span {
 #hero .img-fluid {
   width: 100%;
   height: auto;
+  margin-left: auto;
 }
 
 #hero h1 {
@@ -157,13 +159,14 @@ h2 span {
 #hero .col-md-7 {
   text-align: left;
   border-left: #ffffff;
-  border-width: 10px;
 }
 
 #hero .col-md-5 {
-	text-align: center;
-	border-left: #ffffff;
-	border-width: 10px;
+	max-width: 50%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
   }
   
 

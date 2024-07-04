@@ -32,6 +32,7 @@
 	}
   
 	#hero .col-md-7 {
+		margin-top: -50px;
 	  text-align: center;
 	  border-left: #ffffff;
 	  border-width: 10px;
