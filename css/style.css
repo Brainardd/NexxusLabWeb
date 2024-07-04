@@ -191,20 +191,49 @@ h2 span {
 }
 
 #hero .companies {
-  background-color: #202020a1;
+  background-color: #dfdfdf00;
   border: 1px solid #202020;
   border-radius: 10px;
   align-items: flex;
-  width: 500px;
+  width: 800px;
   margin: 0 auto;
-  margin-top: 10%;
-  padding: 20px;
+  margin-top: 100px;
+  padding: 10px;
   text-align: center;
+  font-size: xx-small;
+  color: #ffffff;
 }
 
 #hero .companies .grid {
-  row-gap: 10px;
+  background-color: #727272;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 100px;
+  justify-content: center;
 }
+
+#hero .companies p {
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	white-space: nowrap;
+	word-break: keep-all;
+	cursor: default;
+  }
+  
+  #hero .companies .col-md-7 {
+	text-align: left;
+	border-left: #ffffff;
+	border-width: 10px;
+  }
+  
+  #hero .companies p span {
+	color: #28a7e9;
+	font-weight: bold;
+  }
 
 /* end hero */
 
@@ -284,25 +313,6 @@ h2 span {
   max-width: 1000px;
   position: relative;
   margin: auto;
-}
-
-.slideshow-slide img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.slideshow-slide {
-  flex: 0 0 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-  transition: opacity 0.5s;
 }
 
 .prev,

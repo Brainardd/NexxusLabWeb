@@ -6,10 +6,92 @@
 /* end 360 media quires */
 
 /* start 1000 media quires */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 993px) {
+	#hero {
+	  min-height: 100vh;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  padding-top: 80px;
+	  padding-bottom: 80px;
+	}
+	#hero h1 {
+	  font-size: 40px;
+	  white-space: normal;
+	  word-break: break-word;
+	  text-align: center;
+	}
+  
+	#hero .col-md-5 {
+	  max-width: 50%;
+	  display: flex;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: auto;
+	}
+  
+	#hero .col-md-7 {
+	  text-align: center;
+	  border-left: #ffffff;
+	  border-width: 10px;
+	}
+  
+	.element {
+	  text-align: center;
+	  cursor: default;
+	}
+  
+	#hero .companies {
+	  width: auto;
+	  margin-top: 100px;
+	  padding: 10px;
+	}
+  
+	#hero .companies .grid {
+	  margin-top: 10px;
+	  gap: 25px;
+	  grid-template-columns: repeat(4, auto);
+	  justify-content: center;
+  }	
+	
+	.templatemo-nav {
+	  position: fixed;
+	  top: 0;
+	}
+  
+	header {
+	  margin-top: -40px;
+	}
+  
+	header .social-icon {
+	  text-align: left;
+	}
+  
+	.navbar-toggle {
+	  margin-top: 15px;
+	}
+  
+	.navbar-collapse {
+	  max-height: 300px;
+	  overflow-y: auto;
+	}
+  
+	.navbar-default .navbar-nav li a {
+	  height: 45px;
+	  padding-top: 5px;
+	  padding-bottom: 5px;
+	  line-height: 35px;
+	}
+  }
+  /* end 1000 media quires */
+
+/* start 768 media quires */
+@media only screen and (max-width: 768px) {
   #hero {
     min-height: 100vh;
     display: flex;
+	flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 80px;
@@ -41,6 +123,19 @@
     cursor: default;
   }
 
+  #hero .companies {
+    width: auto;
+    margin-top: 150px;
+    padding: 10px;
+  }
+
+  #hero .companies .grid {
+	margin-top: 10px;
+	gap: 25px;
+    grid-template-columns: repeat(2, auto);
+	justify-content: center;
+}	
+  
   .templatemo-nav {
     position: fixed;
     top: 0;
@@ -70,7 +165,7 @@
     line-height: 35px;
   }
 }
-/* end 1000 media quires */
+/* end 768 media quires */
 
 /* start 360 media quires */
 @media only screen and (max-width: 360px) {
