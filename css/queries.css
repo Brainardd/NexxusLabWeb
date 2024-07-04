@@ -3,34 +3,10 @@
 		padding: 0px 8px;
 	}
 }
-
-/* start 980 media quires */
-@media only screen and ( max-width: 980px ) {
-	#team .team-wrapper
-		{
-			margin-top: 40px;
-		}
-	#portfolio .portfolio-thumb .portfolio-overlay
-	{
-		background: #28a7e9;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		width: 100%;
-		height: 100%;
-		opacity: 0;
-		position: absolute;
-		padding: 40px 10px 20px 20px;
-		-webkit-transition: all 0.4s ease-in-out;
-		        transition: all 0.4s ease-in-out;
-	}
-
-}
 /* end 360 media quires */
 
 /* start 768 media quires */
-@media only screen and ( max-width: 767px )
+@media only screen and ( max-width: 1000px )
  	{
 		#hero {
 		min-height: 100vh;
@@ -46,23 +22,36 @@
     	word-break: break-word;
 	}
 
+	#hero .col-md-5 {
+		max-width: 50%;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+
 	.templatemo-nav {
 		position: fixed;
     	top: 0;
 	}
+
 	header {
 		margin-top: -40px;
 	}
+
 	header .social-icon {
 		text-align: left;
 	}
+
 	.navbar-toggle {
 		margin-top: 15px;
 	}
+
 	.navbar-collapse {
 		max-height: 300px;
 		overflow-y: auto;
 	}
+
 	.navbar-default .navbar-nav li a {
 		height: 45px;
 		padding-top: 5px;
