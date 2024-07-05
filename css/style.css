@@ -842,11 +842,16 @@ h2 span {
 
 /* start copyright */
 #copyright {
+  background-color: #fff;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #copyright p {
   font-weight: 400;
+  color: #192027;
 }
 
 /* end copyright */

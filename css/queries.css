@@ -96,7 +96,7 @@
   #footer .footer-menu {
     padding-left:0
    }
-   
+
 }
   /* end 993 media quires */
 
@@ -177,6 +177,18 @@
     padding-top: 5px;
     padding-bottom: 5px;
     line-height: 35px;
+  }
+
+  #footer p{
+    text-align: center;
+  }
+
+  #footer .social-icon {
+    text-align: center;
+    position: relative;
+    padding: 0;
+    padding-top: 100px;
+    margin: 0;
   }
 }
 /* end 768 media quires */
