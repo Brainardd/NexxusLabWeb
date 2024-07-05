@@ -137,6 +137,7 @@ h2 span {
   text-align: center;
   justify-content: center;
   align-content: center;
+  margin: 0 auto;
 }
 
 #hero .img-fluid {
@@ -149,7 +150,7 @@ h2 span {
   font-size: 70px;
   text-align: left;
   white-space: nowrap;
-  word-break: keep-all;
+  word-break: break-all;
   cursor: default;
 }
 
@@ -162,6 +163,8 @@ h2 span {
 
 #hero .col-md-7 {
   text-align: left;
+  justify-content: left;
+  align-items: left;
 }
 
 #hero .col-md-5 {
@@ -202,9 +205,9 @@ h2 span {
   transition: all 0.4s ease-in-out;
 }
 
-#hero .buttonplacement{
+#hero .buttonplacement {
   text-align: center;
-  padding-top: 120px
+  padding-top: 120px;
 }
 
 #hero .btn:hover {

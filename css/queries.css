@@ -21,7 +21,6 @@
         margin-top: 100px;
     }
 
-	}
 	#hero h1 {
 	  font-size: 40px;
 	  white-space: normal;
@@ -93,6 +92,7 @@
 	  padding-bottom: 5px;
 	  line-height: 35px;
 	}
+}
   /* end 993 media quires */
 
 /* start 768 media quires */
