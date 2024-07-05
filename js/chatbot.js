@@ -71,7 +71,7 @@ class Chatbox {
             let msg2 = { name: "Sam", message: r.answer };
 
             // Check if the response is the specific abusive message
-            if (r.answer === "I hope you understand, but we do not tolerate aggressive or inappropriate behavior. Please communicate respectfully. If this behavior continues, we will no longer entertain any questions. Thank you for your understanding.") {
+            if (r.answer === "I hope you understand, but we do not tolerate aggressive or inappropriate behavior. Please communicate respectfully. If this behavior continues, we will no longer entertain any more questions. Thank you for your understanding.") {
                 this.abusiveCounter++;
             }
 
