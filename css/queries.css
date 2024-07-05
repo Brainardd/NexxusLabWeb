@@ -5,7 +5,7 @@
 }
 /* end 360 media quires */
 
-/* start 1000 media quires */
+/* start 993 media quires */
 @media only screen and (max-width: 993px) {
 	#hero {
 	  min-height: 100vh;
@@ -15,6 +15,12 @@
 	  justify-content: center;
 	  padding-top: 80px;
 	  padding-bottom: 80px;
+  }
+
+  #hero .row {
+        margin-top: 100px;
+    }
+
 	}
 	#hero h1 {
 	  font-size: 40px;
@@ -37,10 +43,14 @@
 	  border-width: 10px;
 	}
   
-	.element {
+	#hero .element {
 	  text-align: center;
 	  cursor: default;
 	}
+
+  #hero .buttonplacement {
+    padding-top: 60px
+  }
   
 	#hero .companies {
 	  width: auto;
@@ -83,8 +93,7 @@
 	  padding-bottom: 5px;
 	  line-height: 35px;
 	}
-  }
-  /* end 1000 media quires */
+  /* end 993 media quires */
 
 /* start 768 media quires */
 @media only screen and (max-width: 768px) {
