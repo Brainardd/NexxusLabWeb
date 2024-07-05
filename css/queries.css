@@ -92,6 +92,11 @@
 	  padding-bottom: 5px;
 	  line-height: 35px;
 	}
+
+  #footer .footer-menu {
+    padding-left:0
+   }
+   
 }
   /* end 993 media quires */
 

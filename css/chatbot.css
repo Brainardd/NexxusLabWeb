@@ -1,0 +1,521 @@
+.chatbot-container * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container body {
+    background-color: aquamarine;
+}
+
+.chatbot-container {
+    --primaryGradient: linear-gradient(93.12deg, #0d1f3f 0.45%, #193b7a 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #0d1f3f -2.14%, #193b7a 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+    --primary: #193b7a;
+}
+
+/* CHATBOX */
+.chatbot-container .chatbox {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+/* CONTENT IS CLOSE */
+.chatbot-container .chatbox__support {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    width: 300px;
+    height: 350px;
+    z-index: -123456;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+/* CONTENT IS OPEN */
+.chatbot-container .chatbox--active {
+    transform: translateY(-40px);
+    z-index: 123456;
+    opacity: 1;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+/* BUTTON */
+.chatbot-container .chatbox__button {
+    text-align: right;
+    position: fixed;
+    bottom: 5px; /* Adjust this value to raise the button higher */
+    right: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container .send__button {
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+/* HEADER */
+.chatbot-container .chatbox__header {
+    position: sticky;
+    top: 0;
+    background: orange;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+/* MESSAGES */
+.chatbot-container .chatbox__messages {
+    margin-top: auto;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container .messages__item {
+    background: orange;
+    max-width: 60.6%;
+    width: fit-content;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container .messages__item--operator {
+    margin-left: auto;
+}
+
+.chatbot-container .messages__item--visitor {
+    margin-right: auto;
+}
+
+/* FOOTER */
+.chatbot-container .chatbox__footer {
+    position: sticky;
+    bottom: 0;
+}
+
+.chatbot-container .chatbox__support {
+    background: #f0f0f0;
+    height: 450px;
+    width: 350px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+/* HEADER */
+.chatbot-container .chatbox__header {
+    background: var(--primaryGradient);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: var(--primaryBoxShadow);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container .chatbox__image--header img {
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 10px;
+}
+
+.chatbot-container .chatbox__heading--header {
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.chatbot-container .chatbox__description--header {
+    font-size: .9rem;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container .chatbox__description--header2 {
+    font-size: .9rem;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+    text-align: center;
+}
+
+/* Messages */
+.chatbot-container .chatbox__messages {
+    padding: 0 20px;
+}
+
+.chatbot-container .messages__item {
+    margin-top: 10px;
+    background: #E0E0E0;
+    padding: 8px 12px;
+    max-width: 70%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    color: black;
+}
+
+.chatbot-container .messages__item--visitor,
+.chatbot-container .messages__item--typing {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container .messages__item--operator {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: var(--primary);
+    color: white;
+
+}
+
+/* FOOTER */
+.chatbot-container .chatbox__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background: var(--secondaryGradient);
+    box-shadow: var(--secondaryBoxShadow);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container .chatbox__footer input {
+    width: 80%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    color: black;
+}
+
+.chatbot-container .chatbox__send--footer {
+    color: #f0f0f0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container .chatbox__button button,
+.chatbot-container .chatbox__button button:focus,
+.chatbot-container .chatbox__button button:visited {
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.chatbot-container .chatbox__button img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.chatbot-container .reset-button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.chatbot-container .reset-button img {
+    max-width: 37px;
+    max-height: 37px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.chatbot-container .chatbox__content--header {
+    padding-right: 50px;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .chatbot-container .chatbox {
+        bottom: 50px;
+        right: 15px;
+    }
+
+    .chatbot-container .chatbox__support {
+        width: 260px;
+        height: 400px;
+    }
+
+    .chatbot-container .chatbox__footer {
+        padding: 10px;
+    }
+
+    .chatbot-container .chatbox__footer input {
+        width: 70%;
+        padding: 8px;
+    }
+
+    .chatbot-container .chatbox__header {
+        padding: 10px 15px;
+    }
+
+    .chatbot-container .chatbox__header img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .chatbot-container .reset-button img {
+        max-width: 27px;
+        max-height: 27px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .chatbot-container .chatbox__heading--header{
+        font-size: 100%;
+        font-size: 1.2rem;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+    }
+    .chatbot-container .chatbox__description--header {
+        font-size: .9rem;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 80%;
+    }
+    .chatbot-container .chatbox__description--header2 {
+        font-size: .9rem;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 60%;
+        text-align: center;
+    }
+    .chatbot-container .chatbox__button button,
+    .chatbot-container .chatbox__button button:focus,
+    .chatbot-container .chatbox__button button:visited {
+    padding: 7.5px;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    }
+    .chatbot-container .chatbox__footer input {
+    width: 80%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    color: black;
+    }
+    .chatbot-container .chatbox__send--footer {
+        color: #f0f0f0;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 90%;
+    }
+    .chatbot-container .messages__item {
+        margin-top: 10px;
+        background: #E0E0E0;
+        padding: 8px 12px;
+        max-width: 70%;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 90%;
+        color: black;
+    }
+    .chatbot-container .messages__item--visitor,
+    .chatbot-container .messages__item--typing {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    }
+
+    .chatbot-container .messages__item--operator {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: var(--primary);
+    color: white;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .chatbot-container .chatbox {
+        bottom: 30px;
+        right: 10px;
+    }
+
+    .chatbot-container .chatbox__support {
+        width: 220px;
+        height: 350px;
+    }
+
+    .chatbot-container .chatbox__footer {
+        padding: 8px;
+    }
+
+    .chatbot-container .chatbox__footer input {
+        width: 65%;
+        padding: 6px;
+    }
+
+    .chatbot-container .chatbox__header {
+        padding: 8px 10px;
+    }
+
+    .chatbot-container .chatbox__header img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .chatbot-container .reset-button img {
+        max-width: 17px;
+        max-height: 17px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .chatbot-container .chatbox__heading--header{
+        font-size: 85%;
+        font-size: 1.2rem;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+    }
+    .chatbot-container .chatbox__description--header {
+        font-size: .9rem;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 70%;
+    }
+    .chatbot-container .chatbox__description--header2 {
+        font-size: .9rem;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 50%;
+        text-align: center;
+    }
+    .chatbot-container .chatbox__button button,
+    .chatbot-container .chatbox__button button:focus,
+    .chatbot-container .chatbox__button button:visited {
+    padding: 5px;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    }
+    .chatbot-container .chatbox__footer input {
+    width: 80%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+    color: black;
+    }
+    .chatbot-container .chatbox__send--footer {
+        color: #f0f0f0;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 80%;
+    }
+    .chatbot-container .messages__item {
+        margin-top: 10px;
+        background: #E0E0E0;
+        padding: 8px 12px;
+        max-width: 70%;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 80%;
+        color: black;
+    }
+    .chatbot-container .messages__item--visitor,
+    .chatbot-container .messages__item--typing {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+    }
+
+    .chatbot-container .messages__item--operator {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: var(--primary);
+    color: white;
+    }
+}
+
+
+

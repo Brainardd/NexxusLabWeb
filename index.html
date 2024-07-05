@@ -9,6 +9,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+
 		<link rel="icon" href="images/3DNexxusLogo.gif?v=2" type="image/gif">
 		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -17,10 +18,9 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/nav-bar.css">
 		<link rel="stylesheet" href="css/queries.css">
+		<link rel="stylesheet" href="css/chatbot.css">
 		<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-		
-		
-
+	
 
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -29,7 +29,6 @@
 		<script src="js/wow.min.js"></script>
 		<script src="js/custom.js"></script>
 		<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-		<script defer src="https://app.fastbots.ai/embed.js" data-bot-id="clxmysx4t0003ohbcbw52d8gj"></script>
 		<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 		
 		<body id="top">
@@ -382,11 +381,104 @@
     	<!-- end contact -->
 
 		<!-- footer start -->
-		 ITO NALANG WALA ANG AMING PAA OR POOTER
+		<section id="footer">
+		<footer class="footer-area">
+		<div class="footer-big">
+		  <!-- start .container -->
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-3 col-sm-12">
+				<div class="footer-widget">
+				  <div class="widget-about">
+					<img src="/images/LOGO NexxusLab.png" alt="" class="img-fluid">
+					<p>Copyright © 2024 by Nexxus Lab All rights reserved.</p>
+					<ul class="social-icon">	
+						<li><a href="#" class="fa fa-facebook"></a></li>
+						<li><a href="#" class="fa fa-instagram"></a></li>
+						<li><a href="#" class="fa fa-linkedin"></a></li>
+						<li><a href="#" class="fa fa-github"></a></li>
+					</ul>
+					</ul>
+				  </div>
+				</div>
+				<!-- Ends: .footer-widget -->
+			  </div>
+			  <!-- end /.col-md-4 -->
+			  <div class="col-md-3 col-sm-4">
+				<div class="footer-widget">
+				  <div class="footer-menu footer-menu--1">
+					<h4 class="footer-widget-title">Contact Us </h4>
+					<ul>
+					  <li>
+						<a>Salcedo St., Legaspi Village Makati City 1299, Philippines</a>
+					  </li>
+					  <li>
+						<a>+63 927-143-0884
+							<br>
+							team@nexxuslab.com
+							</br>
+						</a>
+					  </li>
+					</ul>
+				  </div>
+				  <!-- end /.footer-menu -->
+				</div>
+				<!-- Ends: .footer-widget -->
+			  </div>
+			  <!-- end /.col-md-3 -->
+	  
+			  <div class="col-md-3 col-sm-4">
+				<div class="footer-widget">
+				  <div class="footer-menu">
+					<h4 class="footer-widget-title">Our Company</h4>
+					<ul class="mini-texts">
+					  <li>
+						<a href="#">About Us</a>
+					  </li>
+					  <li>
+						<a href="#">Services</a>
+					  </li>
+					  <li>
+						<a href="#">Contact Us</a>
+					  </li>
+					</ul>
+				  </div>
+				  <!-- end /.footer-menu -->
+				</div>
+				<!-- Ends: .footer-widget -->
+			  </div>
+			  <!-- end /.col-lg-3 -->
+	  
+			  <div class="col-md-3 col-sm-4">
+				<div class="footer-widget">
+				  <div class="footer-menu no-padding">
+					<h4 class="footer-widget-title">Resources</h4>
+					<ul>
+					  <li>
+						<a href="#">Partnerships</a>
+					  </li>
+					  <li>
+						<a href="#">Projects</a>
+					  </li>
+					</ul>
+				  </div>
+				  <!-- end /.footer-menu -->
+				</div>
+				<!-- Ends: .footer-widget -->
+			  </div>
+			  <!-- Ends: .col-lg-3 -->
+	  
+			</div>
+			<!-- end /.row -->
+		  </div>
+		  <!-- end /.container -->
+		</div>
+		<!-- end /.footer-big -->
+	  </footer>
+	</section>
 		<!-- footer ends -->
-
         <!-- start copyright -->
-        <footer id="copyright">
+        <section id="copyright">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -395,9 +487,51 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </section>
         <!-- end copyrighttu -->
 	</div>
 </div>
+
+<div class="chatbot-container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="images/Chatbot/NexxusLabLogo.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Nexxusbot</h4>
+                    <p class="chatbox__description--header">How can I help you?</p>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <button id="reset" class="reset-button">
+                                <img src="images/Chatbot/Illustration5.png" />
+                            </button>
+                        </tr>
+                        <tr>
+                            <p class="chatbox__description--header2">Reset</p>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button>
+                <img src="images/Chatbot/NexxusLabLogo.png" />
+            </button>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/chatbot.js"></script>
+
 	</body>
 </html>
