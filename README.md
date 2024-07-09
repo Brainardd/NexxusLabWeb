@@ -8,7 +8,7 @@ Welcome to the **NexxusLab** landing page! NexxusLab is a **tech company** provi
 
 ## Technologies Used
 
-- <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/654773f1-36f9-486b-9220-ee6b65a49187" width="25px"> **Figma**: Used for designing the layout and user interface of the website.
+- <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/654773f1-36f9-486b-9220-ee6b65a49187" width="10px"> **Figma**: Used for designing the layout and user interface of the website.
 - **HTML 5**: The standard language for creating and structuring web content.
 - **CSS 3**: Used for styling the website to make it visually appealing.
 - **JavaScript**: Enables interactive features and dynamic content on the website.
