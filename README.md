@@ -18,14 +18,14 @@ Website Link: <a href="https://brainardd.github.io/NexxusLabWeb/" target="_blank
 
 <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/cb81cac9-063d-4de0-9480-5ecc294b2e24" width="40px"> `JavaScript:` Enables interactive features and dynamic content on the website.
 
-<img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/c1263773-ca49-409b-81e3-8aa6d54528ed" width="40px"> `Bootstrap:` A front-end framework for developing responsive and mobile-first websites.
+<img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/c1263773-ca49-409b-81e3-8aa6d54528ed" width="40px"> `Bootstrap:` Used for a front-end framework to develop a responsive and mobile friendly website.
 
 <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/15f93604-a049-45bb-866f-d04638e88dc8" width="40px"> `Python Anywhere:` Used for hosting and deploying the chatbot that is integrated into the website.
 
 
 ## Chatbot
 
-Our website features an integrated **chatbot** designed to assist visitors with their queries and provide information about our services. The chatbot was developed and trained to enhance user experience and engagement.
+The website features an integrated **chatbot** designed to assist visitors with their queries and provide information about the company's services. The chatbot was developed and trained to enhance user experience and engagement.
 
 - **Chatbot Repository**: [GitHub - OJThee/Chatbot](https://github.com/OJThee/Chatbot)
 
@@ -39,6 +39,6 @@ The website is deployed and accessible at the following link:
 
 - **Responsive Design**: The website is designed to be fully responsive, ensuring a seamless experience across all devices.
 - **Interactive Elements**: Various interactive elements enhance user engagement and provide a modern web experience.
-- **Integrated Chatbot**: Our chatbot is readily available to assist visitors with any questions or support they may need.
+- **Integrated Chatbot**: The chatbot is readily available to assist visitors with any questions or support they may need.
 
 
