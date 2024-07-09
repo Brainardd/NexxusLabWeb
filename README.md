@@ -27,13 +27,8 @@ Website Link: <a href="https://brainardd.github.io/NexxusLabWeb/" target="_blank
 
 The website features an integrated **chatbot** designed to assist visitors with their queries and provide information about the company's services. The chatbot was developed and trained to enhance user experience and engagement.
 
-- **Chatbot Repository**: [GitHub - OJThee/Chatbot](https://github.com/OJThee/Chatbot)
+- **Chatbot Repository**: <a href="https://github.com/OJThee/Chatbot" target="_blank">`GitHub - OJThee/Chatbot`</a>
 
-## Deployment
-
-The website is deployed and accessible at the following link:
-
-- **NexxusLab Website**: [brainardd.github.io/NexxusLabWeb/](https://brainardd.github.io/NexxusLabWeb/)
 
 ## Features
 
