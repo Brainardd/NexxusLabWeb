@@ -10,10 +10,9 @@ Welcome to the **NexxusLab** landing page! NexxusLab is a **tech company** provi
 
 - ![Figma] **Figma**: Used for designing the layout and user interface of the website.
 - ![HTML5] **HTML 5**: The standard language for creating and structuring web content.
-- ![HTML3] **HTML 3**: Used for older, compatible HTML elements and structures.
-- ![Bootstrap] **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
-- ![CSS] **CSS**: Used for styling the website to make it visually appealing.
+- ![CSS3] **CSS 3**: Used for styling the website to make it visually appealing.
 - ![JavaScript] **JavaScript**: Enables interactive features and dynamic content on the website.
+- ![Bootstrap] **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
 - ![PythonAnywhere] **Python Anywhere**: Used for hosting and deploying the chatbot that is integrated into the website.
 
 ## Chatbot
