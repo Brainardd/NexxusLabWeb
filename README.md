@@ -1,6 +1,6 @@
 # <a href="brainardd.github.io/NexxusLabWeb/" target="_blank">Nexxus Lab</a>
 
-![NexxusLab Logo](https://github.com/Brainardd/NexxusLabWeb/assets/90681357/a9f90da0-a947-4946-ac75-9de024aad6c2)
+ <a href="brainardd.github.io/NexxusLabWeb/" target="_blank">![NexxusLab Logo](https://github.com/Brainardd/NexxusLabWeb/assets/90681357/a9f90da0-a947-4946-ac75-9de024aad6c2)</a>
 
 ## Overview
 
