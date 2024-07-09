@@ -10,7 +10,7 @@ Website Link: <a href="https://brainardd.github.io/NexxusLabWeb/" target="_blank
 
 ## Technologies Used
 
-<img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/8415f990-17a4-432b-939a-8422a854040c" width="40px"> **Figma**: Used for designing the layout and user interface of the website.
+<img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/8415f990-17a4-432b-939a-8422a854040c" width="40px"> ### **Figma**: Used for designing the layout and user interface of the website.
 
 <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/679bf9e1-f1d9-4c54-a5b0-9cb5fd3fa6c8" width="40x"> **HTML 5**: The standard language for creating and structuring web content.
 
