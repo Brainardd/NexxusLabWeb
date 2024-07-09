@@ -9,11 +9,11 @@ Welcome to the **NexxusLab** landing page! NexxusLab is a **tech company** provi
 ## Technologies Used
 
 - <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/654773f1-36f9-486b-9220-ee6b65a49187" width="10px"> **Figma**: Used for designing the layout and user interface of the website.
-- <img src="(https://github.com/Brainardd/NexxusLabWeb/assets/90681357/a70de079-2f33-4fa4-9d61-1561ec8fcc8b)" width="10px"> **HTML 5**: The standard language for creating and structuring web content.
-- <img src="(https://github.com/Brainardd/NexxusLabWeb/assets/90681357/1983fac0-9c82-4541-83d6-3b2fba4aecb6)" width="10px"> **CSS 3**: Used for styling the website to make it visually appealing.
-- <img src="(https://github.com/Brainardd/NexxusLabWeb/assets/90681357/171c1ffb-88f4-4c76-a837-53d1227633f3)" width="10px"> **JavaScript**: Enables interactive features and dynamic content on the website.
-- <img src="(https://github.com/Brainardd/NexxusLabWeb/assets/90681357/98bcfd3b-1208-416e-8635-44983561cfb6)" width="10px"> **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
-- <img src="(https://github.com/Brainardd/NexxusLabWeb/assets/90681357/15f93604-a049-45bb-866f-d04638e88dc8)" width="10px"> **Python Anywhere**: Used for hosting and deploying the chatbot that is integrated into the website.
+- <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/a70de079-2f33-4fa4-9d61-1561ec8fcc8b)" width="10px"> **HTML 5**: The standard language for creating and structuring web content.
+- <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/1983fac0-9c82-4541-83d6-3b2fba4aecb6)" width="10px"> **CSS 3**: Used for styling the website to make it visually appealing.
+- <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/171c1ffb-88f4-4c76-a837-53d1227633f3)" width="10px"> **JavaScript**: Enables interactive features and dynamic content on the website.
+- <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/98bcfd3b-1208-416e-8635-44983561cfb6)" width="10px"> **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
+- <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/15f93604-a049-45bb-866f-d04638e88dc8)" width="10px"> **Python Anywhere**: Used for hosting and deploying the chatbot that is integrated into the website.
 
 ## Chatbot
 
