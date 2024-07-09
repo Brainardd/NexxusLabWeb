@@ -18,7 +18,7 @@ Website Link: <a href="https://brainardd.github.io/NexxusLabWeb/" target="_blank
 
 <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/cb81cac9-063d-4de0-9480-5ecc294b2e24" width="40px">  **JavaScript**: Enables interactive features and dynamic content on the website.
 
-<img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/c1263773-ca49-409b-81e3-8aa6d54528ed" width="40px">  **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
+<img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/c1263773-ca49-409b-81e3-8aa6d54528ed" width="40px" margin-right=10px>  **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
 
 <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/15f93604-a049-45bb-866f-d04638e88dc8" width="40px">  **Python Anywhere**: Used for hosting and deploying the chatbot that is integrated into the website.
 
