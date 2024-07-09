@@ -1,6 +1,6 @@
-# <a href="brainardd.github.io/NexxusLabWeb/" target="_blank">Nexxus Lab</a>
+# <a href="https://brainardd.github.io/NexxusLabWeb/" target="_blank">Nexxus Lab</a>
 
- <a href="brainardd.github.io/NexxusLabWeb/" target="_blank">![NexxusLab Logo](https://github.com/Brainardd/NexxusLabWeb/assets/90681357/a9f90da0-a947-4946-ac75-9de024aad6c2)</a>
+ <a href="https://brainardd.github.io/NexxusLabWeb/" target="_blank">![NexxusLab Logo](https://github.com/Brainardd/NexxusLabWeb/assets/90681357/a9f90da0-a947-4946-ac75-9de024aad6c2)</a>
 
 ## Overview
 
@@ -8,12 +8,12 @@ Welcome to the **NexxusLab** landing page! NexxusLab is a **tech company** provi
 
 ## Technologies Used
 
-- ![Figma] **Figma**: Used for designing the layout and user interface of the website.
-- ![HTML5] **HTML 5**: The standard language for creating and structuring web content.
-- ![CSS3] **CSS 3**: Used for styling the website to make it visually appealing.
-- ![JavaScript] **JavaScript**: Enables interactive features and dynamic content on the website.
-- ![Bootstrap] **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
-- ![PythonAnywhere] **Python Anywhere**: Used for hosting and deploying the chatbot that is integrated into the website.
+- <img src="https://github.com/Brainardd/NexxusLabWeb/assets/90681357/654773f1-36f9-486b-9220-ee6b65a49187" width="25px"> **Figma**: Used for designing the layout and user interface of the website.
+- **HTML 5**: The standard language for creating and structuring web content.
+- **CSS 3**: Used for styling the website to make it visually appealing.
+- **JavaScript**: Enables interactive features and dynamic content on the website.
+- **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
+- **Python Anywhere**: Used for hosting and deploying the chatbot that is integrated into the website.
 
 ## Chatbot
 
