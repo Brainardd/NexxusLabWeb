@@ -4,7 +4,7 @@
 
 Welcome to the **NexxusLab** landing page! NexxusLab is a **tech company** providing a wide range of **tech services**. This website serves as the central hub for information about the company, their services, and how to get in touch with them.
 
-Website Link: <a href="Nexxuslab.com" target="_blank">`NexxusLab.com`</a>
+Website Link: <a href="https://www.Nexxuslab.com" target="_blank">`NexxusLab.com`</a>
 
 ## Technologies Used
 
